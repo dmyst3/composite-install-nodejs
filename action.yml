@@ -1,0 +1,9 @@
+name: NodeJs installer
+description: 'Re-Usable action to install Node Js'
+
+runs:
+  using: "composite"
+  steps:
+    - run: echo installing nodejs
+      shell: bash
+      
